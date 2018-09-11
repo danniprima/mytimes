@@ -1,6 +1,3 @@
-*{
-  border: 1px solid black;
-}
 
 
   header{
@@ -21,6 +18,8 @@
 header nav {
   padding-right: 80px;
   display:flex;
+  width:100%;
+  justify-content: flex-end;
   ;
 }
 
@@ -28,7 +27,6 @@ nav span{
   display:inline-block;
   padding: 20px 10px;
   list-style: none;
-  justify-content: flex-end;
 
 }
 
