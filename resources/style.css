@@ -38,7 +38,7 @@ header span{
 .logo{
   display:flex;
   align-items: center;
-  padding-bottom:20px;
+  padding-bottom:10px;
 }
 
 .logo img{
