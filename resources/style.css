@@ -49,29 +49,32 @@ header span{
 {
   border: 1px solid black;
   width:1000px;
-  height:500px;
   background-color:lightblue;
-  align-items: center;
+  display:flex;
+  justify-content: space-around;
+
 }
 
- .column-large,
- .column-medium,
- .column-small{
+ div,
+ span{
   border: 1px solid black;
 
 }
 
 .column-large{
   width:630px;
-  height:200px;
   background-color: orange;
+  flex:3;
+  overflow:visible;
+  border: 1px solid black;
 
 }
 
 .column-medium{
   width:300px;
-  height:100px;
   background-color: orange;
+  flex:2;
+  border: 1px solid black;
 
 }
 
@@ -79,5 +82,14 @@ header span{
   width:240px;
   height:100px;
   background-color: orange;
+  flex:1;
+  border: 1px solid black;
 
 }
+
+ .large-1 span
+ {
+     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+     font-family: georgia;
+     font-size:17px;
+ }
