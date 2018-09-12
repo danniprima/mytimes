@@ -48,48 +48,97 @@ header span{
 .main-content
 {
   border: 1px solid black;
-  width:1000px;
+  width:100%;
   background-color:lightblue;
   display:flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
 
 }
 
- div,
- span{
-  border: 1px solid black;
 
-}
 
 .column-large{
   width:630px;
   background-color: orange;
-  flex:3;
   overflow:visible;
-  border: 1px solid black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
 
 }
 
 .column-medium{
   width:300px;
   background-color: orange;
-  flex:2;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 
 }
 
 .column-small{
   width:240px;
-  height:100px;
   background-color: orange;
-  flex:1;
-  border: 1px solid black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 
 }
 
- .large-1 span
+ #headline-1
  {
      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
      font-family: georgia;
-     font-size:17px;
+     font-weight:bold;
+     font-size:40px;
+     color:white;
+     display:flex;
+     height: 300px;
+     justify-content:center;
+ }
+
+ #headline-2{
+   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+   font-family: georgia;
+   font-weight:bold;
+   font-size:30px;
+   color:white;
+   display:flex;
+   height:300px;
+   width:300px;
+   flex-direction: column;
+   align-items: center;
+
+ }
+
+ #headline-3{
+   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+   font-family: georgia;
+   font-weight:bold;
+   font-size:30px;
+   color:white;
+   display:flex;
+   height:300px;
+   width:300px;
+   justify-content:center;
+ }
+
+ #headline-4 {
+   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+   font-family: georgia;
+   font-weight:bold;
+   font-size:30px;
+   color:white;
+   display:flex;
+   height:300px;
+
+ }
+
+ #large-bottom{
+   display:flex;
+   flex-direction: row;
+
  }
